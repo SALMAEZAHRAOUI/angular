@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('https://p.turbosquid.com/ts-thumb/Hw/tlqDzk/cO/cuterobot_0000/jpg/1622119901/1920x1080/fit_q87/481d5a83e0ca5b76285fdfd2d73afa57aaf52785/cuterobot_0000.jpg') repeat; /* Replace 'your-background-image.jpg' with your actual background image URL */
+    background-size: cover;
+    animation: moveBackground 10s linear infinite;
+}
